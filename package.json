@@ -1,0 +1,34 @@
+{
+  "name": "n_remote_config_feature_flag",
+  "packageManager": "yarn@4.9.1",
+  "version": "0.1.0",
+  "description": "Remote config feature flag",
+  "main": "./lib/module/index.js",
+  "types": "./lib/typescript/index.d.ts",
+  "exports": {
+    ".": {
+      "source": "./src/index.tsx",
+      "types": "./lib/typescript/index.d.ts",
+      "default": "./lib/module/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "dependencies": {
+    "@react-native-firebase/analytics": "^18.2.0",
+    "@react-native-firebase/app": "^18.9.0",
+    "@react-native-firebase/remote-config": "^18.2.0",
+    "@reduxjs/toolkit": "^1.9.5",
+    "react": "18.2.0",
+    "react-native": "^0.71.6",
+    "react-redux": "^8.0.5",
+    "redux": "^4.2.1"
+  },
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf lib"
+  },
+  "devDependencies": {
+    "tsc": "^2.0.4",
+    "typescript": "^5.8.3"
+  }
+}
