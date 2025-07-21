@@ -1,7 +1,19 @@
 {
   "name": "rn_remote_config_feature_flag",
+  "author": {
+    "name": "Nha Nguyen",
+    "email": "nguyenhoangvannha@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nguyenhoangvannha/rn_remote_config_feature_flag.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nguyenhoangvannha/rn_remote_config_feature_flag/issues"
+  },
+  "homepage": "https://github.com/nguyenhoangvannha/rn_remote_config_feature_flag#readme",
   "packageManager": "yarn@4.9.1",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Remote config feature flag",
   "main": "./lib/module/index.js",
   "module": "./lib/module/index.js",
