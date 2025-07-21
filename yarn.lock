@@ -1476,20 +1476,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/prop-types@npm:*":
-  version: 15.7.15
-  resolution: "@types/prop-types@npm:15.7.15"
-  checksum: 10c0/b59aad1ad19bf1733cf524fd4e618196c6c7690f48ee70a327eb450a42aab8e8a063fbe59ca0a5701aebe2d92d582292c0fb845ea57474f6a15f6994b0e260b2
-  languageName: node
-  linkType: hard
-
 "@types/react@npm:*":
-  version: 18.3.23
-  resolution: "@types/react@npm:18.3.23"
+  version: 19.1.8
+  resolution: "@types/react@npm:19.1.8"
   dependencies:
-    "@types/prop-types": "npm:*"
     csstype: "npm:^3.0.2"
-  checksum: 10c0/49331800b76572eb2992a5c44801dbf8c612a5f99c8f4e4200f06c7de6f3a6e9455c661784a6c5469df96fa45622cb4a9d0982c44e6a0d5719be5f2ef1f545ed
+  checksum: 10c0/4908772be6dc941df276931efeb0e781777fa76e4d5d12ff9f75eb2dcc2db3065e0100efde16fde562c5bafa310cc8f50c1ee40a22640459e066e72cd342143e
   languageName: node
   linkType: hard
 
@@ -4048,23 +4040,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"n_remote_config_feature_flag@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "n_remote_config_feature_flag@workspace:."
-  dependencies:
-    "@react-native-firebase/analytics": "npm:^18.2.0"
-    "@react-native-firebase/app": "npm:^18.9.0"
-    "@react-native-firebase/remote-config": "npm:^18.2.0"
-    "@reduxjs/toolkit": "npm:^1.9.5"
-    react: "npm:18.2.0"
-    react-native: "npm:^0.71.6"
-    react-redux: "npm:^8.0.5"
-    redux: "npm:^4.2.1"
-    tsc: "npm:^2.0.4"
-    typescript: "npm:^5.8.3"
-  languageName: unknown
-  linkType: soft
-
 "negotiator@npm:0.6.3":
   version: 0.6.3
   resolution: "negotiator@npm:0.6.3"
@@ -4732,12 +4707,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:18.2.0":
-  version: 18.2.0
-  resolution: "react@npm:18.2.0"
+"react@npm:^18.2.0":
+  version: 18.3.1
+  resolution: "react@npm:18.3.1"
   dependencies:
     loose-envify: "npm:^1.1.0"
-  checksum: 10c0/b562d9b569b0cb315e44b48099f7712283d93df36b19a39a67c254c6686479d3980b7f013dc931f4a5a3ae7645eae6386b4aa5eea933baa54ecd0f9acb0902b8
+  checksum: 10c0/283e8c5efcf37802c9d1ce767f302dd569dd97a70d9bb8c7be79a789b9902451e0d16334b05d73299b20f048cbc3c7d288bbbde10b701fa194e2089c237dbea3
   languageName: node
   linkType: hard
 
@@ -4960,6 +4935,23 @@ __metadata:
   checksum: 10c0/f1e646f8c567795f2916aef7aadf685b543da6b9a53e482bb04b07472c7eef2b476045ba1e29f401c301c66b630b22b815ab31fdd60c5e1ae6566ff523debf45
   languageName: node
   linkType: hard
+
+"rn_remote_config_feature_flag@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "rn_remote_config_feature_flag@workspace:."
+  dependencies:
+    "@react-native-firebase/analytics": "npm:^18.2.0"
+    "@react-native-firebase/app": "npm:^18.9.0"
+    "@react-native-firebase/remote-config": "npm:^18.2.0"
+    "@reduxjs/toolkit": "npm:^1.9.5"
+    react: "npm:^18.2.0"
+    react-native: "npm:^0.71.6"
+    react-redux: "npm:^8.0.5"
+    redux: "npm:^4.2.1"
+    tsc: "npm:^2.0.4"
+    typescript: "npm:^5.8.3"
+  languageName: unknown
+  linkType: soft
 
 "safe-buffer@npm:5.2.1, safe-buffer@npm:~5.2.0":
   version: 5.2.1

@@ -9,6 +9,7 @@
     "moduleResolution": "Node",
     "strict": true,
     "esModuleInterop": true,
+    "emitDeclarationOnly": false,
     "allowSyntheticDefaultImports": true,
     "skipLibCheck": true
   },
